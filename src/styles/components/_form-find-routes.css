@@ -1,0 +1,174 @@
+.FormFindRoutes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.FormFindRoutesHome {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.FormFindRoutes_Recherche,
+.FormFindRoutes_Recherche2,
+.FormFindRoutes_RechercheNbPers {
+    background: rgba(0, 0, 0, 0);
+    z-index: 2;
+}
+
+.FormFindRoutes_Recherche {
+    width: calc(25% - 20px);
+}
+
+.FormFindRoutes_RechercheNbPers {
+    width: calc(20% - 20px);
+}
+
+.FormFindRoutes_Recherche_inputTextStart,
+.FormFindRoutes_Recherche_containerResultats_Resultats,
+.FormFindRoutes_Recherche_inputTextDestination,
+.FormFindRoutes_Recherche_inputDateTime,
+.FormFindRoutes_Recherche_inputNumberOfPeople,
+.FormFindRoutes_Recherche2_inputTextFlightNumber,
+.FormFindRoutes_Recherche2_selectBaggageSize,
+.FormFindRoutes_Recherche2_selectBaggageSize_value {
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: calc(100% - 20px);
+}
+
+.FormFindRoutes_Recherche_inputTextStart[disabled],
+.FormFindRoutes_Recherche_inputTextDestination[disabled],
+.FormFindRoutes_Recherche_inputDateTime[disabled],
+.FormFindRoutes_Recherche_inputNumberOfPeople[disabled],
+.FormFindRoutes_Recherche2_inputTextFlightNumber[disabled],
+.FormFindRoutes_Recherche2_selectBaggageSize[disabled] {
+    opacity: 0.5;
+}
+
+.FormFindRoutes_Recherche_containerResultats {
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    z-index: 5;
+}
+
+.FormFindRoutes_Recherche_containerResultats:empty {
+    border: none;
+}
+
+.FormFindRoutes_Recherche_containerResultats_Resultats {
+    margin: 0%;
+    width: 100%;
+    border: #fff;
+    z-index: 5;
+}
+
+.FormFindRoutes_Recherche_containerResultats_Resultats:hover {
+    cursor: pointer;
+    background-color: lightgray;
+    transition: 0.5s;
+}
+
+.FormFindRoutes_Recherche_icone {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    z-index: 2;
+    background-color: transparent;
+}
+
+.FormFindRoutes_Recherche_icone[disabled] {
+    opacity: 0.5;
+}
+
+.FormFindRoutes_Recherche2 {
+    width: calc(50% - 40px);
+}
+
+.FormFindRoutes_Recherche2_selectBaggageSize {
+    margin-top: 10px;
+}
+
+.FormFindRoutes_submitButton {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: var(--buttonsColor);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.FormFindRoutes_submitButton[disabled] {
+    background-color: grey;
+}
+
+@media screen and (max-width: 800px) {
+
+    .FormFindRoutes_Recherche {
+        width: calc(50% - 20px);
+    }
+
+    .FormFindRoutes_RechercheNbPers {
+        width: calc(44% - 20px);
+    }
+
+    .FormFindRoutes_Recherche2 {
+        width: calc(50% - 20px);
+    }
+
+    .FormFindRoutes_Recherche_inputTextStart,
+    .FormFindRoutes_Recherche_inputTextDestination,
+    .FormFindRoutes_Recherche_inputDateTime,
+    .FormFindRoutes_Recherche_inputNumberOfPeople,
+    .FormFindRoutes_Recherche2_inputTextFlightNumber,
+    .FormFindRoutes_Recherche2_selectBaggageSize {
+        width: calc(100% - 20px);
+    }
+}
+
+@media (max-width: 639px) {
+
+    .FormFindRoutes_Recherche {
+        width: calc(100% - 20px);
+    }
+
+    .FormFindRoutes_RechercheNbPers {
+        width: calc(93% - 20px);
+    }
+
+    .FormFindRoutes_Recherche2 {
+        width: calc(100% - 20px);
+    }
+
+    .FormFindRoutes_Recherche_inputTextStart,
+    .FormFindRoutes_Recherche_inputTextDestination,
+    .FormFindRoutes_Recherche_inputDateTime,
+    .FormFindRoutes_Recherche_inputNumberOfPeople,
+    .FormFindRoutes_Recherche2_inputTextFlightNumber,
+    .FormFindRoutes_Recherche2_selectBaggageSize {
+        width: calc(100% - 20px);
+    }
+}

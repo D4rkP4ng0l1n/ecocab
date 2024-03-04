@@ -1,0 +1,51 @@
+/* Variables */
+
+:root {
+    --linksHoverColor: #8080D7;
+    --buttonsColor: #AAD9D9;
+}
+
+
+/* Enlever le commentaire à la ligne 19 et les commentaires des fichiers _nav.css et _footer.css pour avoir la version "sombre" */
+
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    /* background-color: #020A48; */
+    /* box-shadow: 0 0 0 3px red inset; */
+}
+
+.container {
+    background-color: #020A48;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/public/fonts/Outfit-VariableFont_wght.ttf');
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    color: white;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+    z-index: 100;
+}
+
+button[disabled]:hover,
+input[type="submit"][disabled]:hover {
+    box-shadow: 0 0 0px rgba(255, 255, 255, 0.3);
+    z-index: 100;
+    cursor: default;
+}

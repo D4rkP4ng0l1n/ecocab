@@ -1,0 +1,38 @@
+@import url("./_settings.css");
+
+
+/* Import Pages*/
+@import url("./pages/_home.css");
+@import url("./pages/_posterUnTrajet.css");
+@import url("./pages/_mentionLegales.css");
+@import url("./pages/_pageRechercherUnTrajet.css");
+@import url("./pages/_loginWithEmail.css");
+@import url("./pages/_createAccount.css");
+@import url("./pages/_howDoesThisWork.css");
+@import url("./pages/_travelDetails.css");
+@import url("./pages/_contact.css");
+@import url("./pages/_account.css");
+@import url("./pages/_profile.css");
+@import url("./pages/_mesTrajets.css");
+
+/* Import Components*/
+@import url("./components/_nav.css");
+@import url("./components/_footer.css");
+@import url("./components/_home-main-titles.css");
+@import url("./components/_form-find-routes.css");
+@import url("./components/_container-logos.css");
+@import url("./components/_logos.css");
+@import url("./components/_boutonContact.css");
+@import url("./components/_videoExplication.css");
+@import url("./components/_formCreationTrajet.css");
+@import url("./components/_trajet.css");
+@import url("./components/_formLoginWithEmail.css");
+@import url("./components/_formCreateAccount.css");
+@import url("./components/_howDoesThisWork.css");
+@import url("./components/_travelInfos.css");
+@import url("./components/_formContact.css");
+@import url("./components/_listeTrajets.css");
+@import url("./components/_travelInfos.css");
+@import url("./components/_accountConnectedMenu.css");
+@import url("./components/_accountDetails.css");
+@import url("./components/_deleteAccountConfirmation.css");

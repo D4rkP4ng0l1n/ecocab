@@ -1,0 +1,218 @@
+/* le css de la barre de recherche viens du _form-find-routes */
+
+.aircraftIcon {
+    position: absolute;
+    height: 170px;
+    right: 10px;
+    top: 50px;
+}
+
+.optionSection,
+.optionSectionHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -30px;
+}
+
+.optionSection_optionButtonsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 2% 1%;
+}
+
+.optionSection_optionButtonsContainerHome {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2% 1%;
+}
+
+.optionSection_optionButtonsContainer_button {
+    background-color: var(--buttonsColor);
+    color: black;
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid black;
+    position: relative;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.optionSection_optionButtonsContainer_button[disabled] {
+    background-color: grey;
+}
+
+.containerTrierAndTrajets {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerTrierAndExplications {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+
+.containerTrierAndExplications_explications {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.containerTrierAndExplications_explications_circleAndMessage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+.containerTrierAndExplications_explications_greenCircle,
+.containerTrierAndExplications_explications_orangeCircle,
+.containerTrierAndExplications_explications_redCircle {
+    width: 30px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.containerTrierAndExplications_explications_orangeCircle {
+    background-color: orange;
+}
+
+.containerTrierAndExplications_explications_redCircle {
+    background-color: red;
+}
+
+.containerTrierAndExplications_explications_text {
+    background-color: white;
+    color: black;
+    margin: 10%;
+}
+
+.containerTrierAndExplications_explications {
+    padding: 1%;
+    padding-bottom: 2%;
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 1%;
+}
+
+.containerTrierAndTrajets_trier {
+    padding: 1%;
+    padding-bottom: 2%;
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 1%;
+}
+
+.containerTrierAndTrajets_trier_title {
+    background-color: white;
+    color: black;
+    margin: 5%;
+}
+
+.containerTrierAndTrajets_trier_ligne {
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+
+.containerTrierAndTrajets_trier_ligne {
+    background-color: white;
+}
+
+.containerTrierAndTrajets_trier_ligne_checkbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    outline: none;
+    transition: 0.2s;
+    margin: 5%;
+    margin-right: 0%;
+}
+
+.containerTrierAndTrajets_trier_ligne_checkbox:checked {
+    background-color: #8080D7;
+}
+
+.containerTrierAndTrajets_trier_ligne_text {
+    background-color: white;
+    color: black;
+    margin: 5%;
+    white-space: nowrap;
+}
+
+.containerButtonAndVideo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerButtonAndVideo_text {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+@media (max-width: 955px) {
+    .aircraftIcon {
+        display: none;
+    }
+}
+
+@media (max-width: 850px) {
+    .containerTrierAndTrajets {
+        flex-direction: column;
+    }
+
+    .containerTrierAndTrajets_trier {
+        width: 250px;
+        margin-bottom: 5%;
+    }
+
+    .containerTrierAndTrajets_trier_title {
+        background-color: white;
+        color: black;
+        margin: 2%;
+    }
+
+    .containerTrierAndTrajets_trier_ligne_checkbox {
+        margin: 2%;
+    }
+
+    .containerTrierAndTrajets_trier_ligne_text {
+        white-space: normal;
+        margin: 2%;
+    }
+
+}
+
+@media (max-width: 630px) {
+    .containerButtonAndVideo_text {
+        margin: 2%;
+        text-align: center;
+    }
+
+    .optionSection_optionButtonsContainer_button {
+        width: 200px;
+    }
+}

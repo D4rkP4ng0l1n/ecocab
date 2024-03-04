@@ -1,0 +1,94 @@
+/* Container principal */
+.loginFormContainer {
+    width: 25em;
+    height: auto;
+    max-width: 90%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1.5em;
+    margin: 5%;
+}
+
+
+.loginFormContainer_mainTitleForm {
+    margin: 0;
+    font-size: 1.5rem;
+    background-color: white;
+    color: black;
+}
+
+.loginFormContainer_loginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1.25em;
+    background-color: white;
+    color: black;
+}
+
+.loginFormContainer_loginForm_label {
+    display: block;
+    text-align: left;
+    margin-bottom: 0.3125em;
+    font-size: 0.875rem;
+    background-color: white;
+}
+
+.loginFormContainer_loginForm_inputText,
+.loginFormContainer_loginForm_inputPassword {
+    width: 100%;
+    padding: 0.625em;
+    margin-bottom: 0.625em;
+    background-color: #fff;
+    color: #000;
+    border-radius: 0.3125em;
+    border: 1px solid #ccc;
+}
+
+.loginFormContainer_loginForm_errorMessage {
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+.loginFormContainer_loginForm_link {
+    font-size: 0.75rem;
+    margin-top: 0.625em;
+    text-align: right;
+    background-color: white;
+    color: #4c9aff;
+    text-align: center;
+}
+
+.loginFormContainer_loginForm_submitButton {
+    display: block;
+    margin: 0 auto;
+    width: 9.375em;
+    margin-top: 1.875em;
+    padding: 0.9375em;
+    background-color: var(--buttonsColor);
+    color: black;
+    border: none;
+    border-radius: 0.3125em;
+    cursor: pointer;
+}
+
+.loginFormContainer_noAccountSection {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginFormContainer_noAccountSection_noAccountTitle {
+    font-size: 1rem;
+    margin-top: 1.875em;
+    background-color: white;
+    color: black;
+}
+
+.loginFormContainer_noAccountSection_registerLink {
+    color: #4c9aff;
+    margin-top: 0.625em;
+    background-color: white;
+}
